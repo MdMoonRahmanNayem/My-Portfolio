@@ -1,48 +1,90 @@
 function Contact() {
   return (
-    <section id="contact" className="px-8 md:px-20 py-24">
 
-      <h2 className="text-4xl font-bold mb-12 text-cyan-400">
-        Contact
-      </h2>
+    <section
+      id="contact"
+      data-aos="fade-up"
+      className="px-8 md:px-20 py-24"
+    >
 
-      <div className="bg-gray-900 border border-gray-800 rounded-2xl p-10">
+      <div className="max-w-5xl mx-auto text-center">
 
-        <p className="text-gray-400 mb-8 text-lg leading-8">
-          Feel free to contact me for collaboration,
-          freelance work, or any exciting project ideas.
+        <h2 className="text-4xl md:text-5xl font-bold text-white mb-8">
+          Contact
+        </h2>
+
+        <p className="text-gray-400 text-lg leading-9 mb-14">
+
+          Feel free to reach out for collaboration,
+          freelance opportunities, or exciting projects.
+
         </p>
 
-        <div className="space-y-6">
+        <div className="bg-[#111111] border border-white/10 rounded-3xl p-10 hover:border-cyan-400 transition duration-300">
 
-          <div>
-            <h3 className="text-cyan-400 text-lg font-semibold mb-2">
-              Email
-            </h3>
+          <div className="space-y-8">
 
-            <p className="text-gray-300">
-              yourmail@gmail.com
-            </p>
-          </div>
+            <div>
 
-          <div>
-            <h3 className="text-cyan-400 text-lg font-semibold mb-2">
-              GitHub
-            </h3>
+              <p className="text-cyan-400 text-sm uppercase tracking-[4px] mb-3">
+                Email
+              </p>
 
-            <p className="text-gray-300">
-              github.com/yourusername
-            </p>
-          </div>
+              <a
+                href="mailto:mmrn3182@gmail.com"
+                className="text-white text-xl hover:text-cyan-400 transition"
+              >
+                mmrn3182@gmail.com
+              </a>
 
-          <div>
-            <h3 className="text-cyan-400 text-lg font-semibold mb-2">
-              LinkedIn
-            </h3>
+            </div>
 
-            <p className="text-gray-300">
-              linkedin.com/in/yourusername
-            </p>
+            <div>
+
+              <p className="text-cyan-400 text-sm uppercase tracking-[4px] mb-3">
+                GitHub
+              </p>
+
+              <a
+                href="https://github.com/MdMoonRahmanNayem"
+                target="_blank"
+                rel="noreferrer"
+                className="text-white text-xl hover:text-cyan-400 transition"
+              >
+                github.com/MdMoonRahmanNayem
+              </a>
+
+            </div>
+
+            <div>
+
+              <p className="text-cyan-400 text-sm uppercase tracking-[4px] mb-3">
+                LinkedIn
+              </p>
+
+              <a
+                href="https://www.linkedin.com/in/md-moon-rahman-nayem"
+                target="_blank"
+                rel="noreferrer"
+                className="text-white text-xl hover:text-cyan-400 transition"
+              >
+                linkedin.com/in/md-moon-rahman-nayem
+              </a>
+
+            </div>
+
+            <div>
+
+              <p className="text-cyan-400 text-sm uppercase tracking-[4px] mb-3">
+                Location
+              </p>
+
+              <p className="text-white text-xl">
+                Dhaka, Bangladesh
+              </p>
+
+            </div>
+
           </div>
 
         </div>

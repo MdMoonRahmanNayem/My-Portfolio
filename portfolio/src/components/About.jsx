@@ -1,71 +1,78 @@
 function About() {
   return (
-    <section id="about" className="px-8 md:px-20 py-24">
 
-      <h2 className="text-4xl font-bold mb-12 text-cyan-400">
-        About Me
-      </h2>
+    <section
+      id="about"
+      data-aos="fade-up"
+      className="px-8 md:px-20 py-24"
+    >
 
-      <div className="grid md:grid-cols-2 gap-12">
+      <div className="max-w-7xl mx-auto">
 
-        {/* Left */}
-        <div>
+        <h2 className="text-4xl md:text-5xl font-bold text-white mb-16">
+          About Me
+        </h2>
 
-          <p className="text-gray-400 leading-8 mb-6">
-            I am a passionate Computer Science student
-            focused on MERN Stack Development, Artificial
-            Intelligence, and Machine Learning.
-          </p>
+        <div className="grid md:grid-cols-2 gap-8 items-stretch">
 
-          <p className="text-gray-400 leading-8">
-            I enjoy building modern web applications,
-            solving real-world problems, and exploring
-            scalable software systems.
-          </p>
+          {/* Left */}
+          <div className="bg-[#111111] border border-white/10 rounded-3xl p-10 hover:border-cyan-400 transition duration-300 flex flex-col justify-center">
 
-        </div>
+            <p className="text-gray-400 leading-9 text-lg mb-8">
 
-        {/* Right */}
-        <div className="grid grid-cols-2 gap-6">
+              I am a Computer Science and Engineering student at
+              East West University with a strong interest in
+              Data Science, Artificial Intelligence, and Full-Stack
+              Web Development.
 
-          <div className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
-            <h3 className="text-3xl font-bold text-cyan-400 mb-2">
-              10+
-            </h3>
-
-            <p className="text-gray-400">
-              Projects Completed
             </p>
+
+            <p className="text-gray-400 leading-9 text-lg mb-8">
+
+              I enjoy building modern web applications, exploring
+              machine learning technologies, and solving real-world
+              problems through practical development and research.
+
+            </p>
+
+            <p className="text-gray-400 leading-9 text-lg">
+
+              Alongside technical skills, I actively participate
+              in leadership, teamwork, event management, and
+              community activities to continuously improve both
+              professionally and personally.
+
+            </p>
+
           </div>
 
-          <div className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
-            <h3 className="text-3xl font-bold text-cyan-400 mb-2">
-              MERN
-            </h3>
+          {/* Right */}
+          <div className="flex flex-col gap-8">
 
-            <p className="text-gray-400">
-              Stack Developer
-            </p>
-          </div>
+            <div className="bg-[#111111] border border-white/10 rounded-3xl p-10 hover:border-cyan-400 hover:-translate-y-2 transition duration-300 flex-1 flex flex-col justify-center">
 
-          <div className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
-            <h3 className="text-3xl font-bold text-cyan-400 mb-2">
-              AI
-            </h3>
+              <h3 className="text-5xl font-bold text-cyan-400 mb-4">
+                MERN
+              </h3>
 
-            <p className="text-gray-400">
-              ML Enthusiast
-            </p>
-          </div>
+              <p className="text-gray-400 text-lg">
+                Stack Developer
+              </p>
 
-          <div className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
-            <h3 className="text-3xl font-bold text-cyan-400 mb-2">
-              CSE
-            </h3>
+            </div>
 
-            <p className="text-gray-400">
-              Student
-            </p>
+            <div className="bg-[#111111] border border-white/10 rounded-3xl p-10 hover:border-cyan-400 hover:-translate-y-2 transition duration-300 flex-1 flex flex-col justify-center">
+
+              <h3 className="text-5xl font-bold text-cyan-400 mb-4">
+                AI
+              </h3>
+
+              <p className="text-gray-400 text-lg">
+                ML Enthusiast
+              </p>
+
+            </div>
+
           </div>
 
         </div>
